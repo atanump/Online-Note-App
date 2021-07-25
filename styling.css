@@ -1,0 +1,51 @@
+html{
+    position: relative;
+    height: 100%;
+}
+body{
+    background-image: url("image/notebook.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.jumbotron, .jumbotron h1{
+    margin-top: 200px;
+    font-family:courier,arial,helvetica;
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.signup{
+    height: 60px;
+    width: 100px;
+    margin-top: 20px;
+    color:white;
+    background-color: green;
+    font-family:sans-serif;
+    font-size: 18px;
+}
+.signup:hover{
+    padding-right: 20px;
+}
+.modal-title{
+    font-size: 22px;
+}
+
+.footer{
+    margin-top: 200px;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    
+}
+#register{
+    margin-right: 240px;
+    background-color: rgb(247,66,80);
+}
+#footertext{
+    float: left;
+}

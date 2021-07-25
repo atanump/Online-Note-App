@@ -1,0 +1,38 @@
+html{
+    position: relative;
+    height: 100%;
+}
+body{
+    background-image: url("image/notebook.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:100%; 
+    position:relative;
+    
+}
+.footer{
+    margin-top: 200px;
+    bottom: 0;
+    position: absolute;
+    color: white;
+    
+}
+#footertext{
+    float: left;
+}
+.msg{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h1{
+    margin-left: 120px;
+    color:rgb(13,110,253);
+    background-color: rgb(228,210,190);
+    width: 380px;
+    height: 100px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px ;
+}
